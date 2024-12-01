@@ -1,0 +1,65 @@
+/* myCSS.css */
+
+body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    text-align: center;
+}
+
+h1 {
+    color: #bd93f9;
+}
+
+canvas {
+    margin-top: 20px;
+    border: 2px solid #6272a4;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #6272a4;
+    border-color: #6272a4;
+    color: #f8f8f2;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover:not(:disabled) {
+    background-color: #bd93f9; /* Lighter Dracula color on hover */
+    border-color: #bd93f9;     /* Match border with background */
+}
+
+.btn-primary:disabled {
+    background-color: #44475a; 
+    border-color: #44475a;     
+    cursor: not-allowed;       
+}
+
+#imageInput {
+    max-width: 235px; 
+    margin: 0 auto 20px auto;   
+    display: block;   
+    background-color: #6272a4;
+    border-color: #6272a4;    
+    color: #f8f8f2;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#imageInput:hover {
+    background-color: #bd93f9; /* Lighter Dracula color on hover */
+    border-color: #bd93f9;     /* Match border with background */
+}
+
+a {
+    color: #bd93f9; /* Dracula purple */
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover,
+a:focus {
+    color: #ff79c6; /* Pink highlight on hover */
+    text-decoration: underline;
+}
